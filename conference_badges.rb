@@ -25,9 +25,9 @@ end
  def printer(name)
     batch_badge_creator.each do |badge| 
     puts ("Hello, #{name} You'll be assigned to room #{index = 1}!") 
-    puts badges
+    puts room_assignments
   end
-  
+  return badge
 end
   
   
