@@ -22,9 +22,9 @@ def assign_rooms(attendees)
    return room_assignments
 end    
 
- def printer(attendees)
-    batch_badge_creator(attendees).each do |badge| 
-    puts ("Hello, #{attendees} You'll be assigned to room #{index = 1}!") 
+ def printer(attendees
+    batch_badge_creator(attendee).each do |badge| 
+    puts ("Hello, #{attendee} You'll be assigned to room #{index = 1}!") 
     end
     return badges
   end
