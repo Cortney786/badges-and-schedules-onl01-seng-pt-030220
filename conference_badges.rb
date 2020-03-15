@@ -24,7 +24,7 @@ end
 
  def printer(attendees)
     batch_badge_creator(attendees).each do |badge| 
-    puts badge 
+    puts ("Hello, #{attendees} You'll be assigned to room #{index = 1}!") 
     end
     return badges
   end
