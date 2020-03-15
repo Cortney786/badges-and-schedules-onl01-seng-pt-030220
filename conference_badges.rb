@@ -23,8 +23,8 @@ def assign_rooms(attendees)
 end    
 
  def printer(attendee)
-    batch_badge_creator(attendee).each do |badge| 
-    puts ("Hello, #{attendee} You'll be assigned to room #{index = 1}!") 
+    batch_badge_creator(name).each do |badge| 
+    puts ("Hello, #{name} You'll be assigned to room #{index = 1}!") 
     end
     return badges
   end
